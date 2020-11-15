@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FF9800"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="20dp"
+      android:text="What do you want to buy?"
+      android:textStyle="bold"
+      android:textColor="@android:color/black"
+      android:textSize="20sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+  </TextView>
+
+    <CheckBox
+        android:id="@+id/milkCheckBoxId"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/sugarCheckBoxId"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/honeyCheckBoxId"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Honey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <Button
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Order"
+        android:textAllCaps="false"
+        android:id="@+id/orderButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/resultTextId"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>
